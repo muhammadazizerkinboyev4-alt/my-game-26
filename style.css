@@ -1,0 +1,50 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.n1
+{
+    transition: all 2s;
+}
+.n1:hover
+{
+    transform: rotate(33deg);
+}
+.n2{
+    transition: all 2s;
+}
+.n2:hover
+{
+    transform: scale(0.65);
+}
+.n3
+{
+    transition: all 2s;
+}
+.n3:hover
+{
+    transform: rotate(50deg);
+    transform: scale(1.2);
+}
+.n4
+{
+    transition: all 2s;
+
+}
+.n4:hover
+{
+    transform: scale(1.2);
+    transform:  rotate(-30deg);
+    transform: skewY(-15deg);
+
+}
+.n5
+{
+    transition: all 3s;
+}
+.n5:hover
+{
+    transform: rotate(360deg) scale(0);
+    
+}
